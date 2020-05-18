@@ -2,6 +2,9 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
+
+/** HEADER PART **/
+
 .header{
     background: linear-gradient(to bottom, #4D68A0, #3B5998);
     width: 100%;
@@ -78,7 +81,7 @@ body{
     margin-left: 20px;
 }
 
-/** BODY STYLE **/
+/** BODY PART **/
 
 .body{
     background: linear-gradient(to top, #D3D8E8, #fff);
@@ -202,4 +205,51 @@ p.info a:hover{
     margin-top: 6px;
     margin-left: 10px;
 }
+
+/** FOOTER PART **/
+
+.footer{
+    padding-top: 55px;
+    font-size: 12px;
+    color: #737373;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.language ul li{
+    margin-right: 8px;
+}
+.language ul li .plus-button{
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    color: #4b4f56;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.links ul li{
+    margin-right: 15px;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #385898;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer hr{
+    border: 0.5px solid #dddfe2;
+}
+.footer .copyright{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
 
